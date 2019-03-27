@@ -8,3 +8,5 @@ fields:
   label: Title
   config:
     required: true
+pages:
+- pages/my-first-page.md
