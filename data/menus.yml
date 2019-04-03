@@ -1,6 +1,6 @@
 ---
 header:
-  - url: /api
-    title: API Documentation
-    identifier: api
+  - url: https://example.com
+    title: Example
+    identifier: example
 ---
