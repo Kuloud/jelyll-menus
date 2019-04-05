@@ -4,9 +4,15 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: document
+  path: index.md
+  label: Homepage
+  match: "**/*"
+- type: heading
+  label: Docs
 - type: directory
   path: docs
-  label: Docs
+  label: Documentation
   create: all
   match: "**/*"
   templates:
