@@ -9,6 +9,11 @@ sections:
   label: Homepage
 - type: heading
   label: Docs
+- type: document
+  path: README.md
+  label: README
+  match: "**/*"
+  read_only: true
 - type: directory
   path: docs
   label: Documentation
@@ -23,7 +28,7 @@ sections:
   label: Data
   create: documents
   match: "**/*.yml"
-  new_doc_ext: ".yml"
+  new_doc_ext: yml
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
