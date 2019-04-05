@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ site.title }}</title>
+  </head>
+  <body>
+
+<header>
+  <nav>
+    <ul>
+    {% for item in site.menus.header %}
+      <li>
+        <a href="{{ item.url }}" }}">{{ item.title }}</a>
+      </li>
+    {% endfor %}
+    </ul>
+  </nav>
+</header>
+
+<main>
+  {{ content }}
+</main>
+
+  </body>
+</html>

@@ -11,4 +11,4 @@ fields:
   name: published
   label: Published
 pages:
-- pages/my-first-page.md
+- docs/index.md

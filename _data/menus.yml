@@ -1,1 +1,7 @@
---- {}
+---
+header:
+  - url: /docs
+    title: Documentation
+    identifier: docs
+    weight: 2
+---
