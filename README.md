@@ -34,4 +34,4 @@ To display our menu we use a simple loop in [our layout](_layouts/default.html):
 
 You can modify menus in Forestry:
 
-![uploads/jekyll-menus.png]
+![](uploads/jekyll-menus.png)
