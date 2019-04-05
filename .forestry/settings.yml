@@ -16,6 +16,14 @@ sections:
   match: "**/*"
   templates:
   - page
+- type: heading
+  label: Data
+- type: directory
+  path: _data
+  label: Data
+  create: documents
+  match: "**/*.yml"
+  new_doc_ext: ".yml"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
